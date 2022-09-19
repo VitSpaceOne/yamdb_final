@@ -1,5 +1,4 @@
 # yamdb_final
-yamdb_final
 
 ![Статус workflow](https://github.com/VitSpaceOne/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
