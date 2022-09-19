@@ -35,6 +35,6 @@ jobs:
         python -m flake8
         # перейти в папку, содержащую manage.py — 
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
-        #cd yamdb_final/
+        ##cd yamdb_final/
         # запустить написанные разработчиком тесты
-        #pytest
+        ##pytest
