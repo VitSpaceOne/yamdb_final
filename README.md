@@ -1,8 +1,7 @@
 # yamdb_final
 yamdb_final
 
-#### Статус workflow:
-https://github.com/VitSpaceOne/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![Статус workflow](https://github.com/VitSpaceOne/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
 # api_yamdb
 > Проект содержит три приложения: reviews, api, users. Приложение reviews содержит модели сервиса, приложение api предоставляет доступ к моделям через API, а в приложениии users реализована вся логика для управления ролями и выдачи доступов: пермишены, эндпоинты для регистрации и получения токена. Подробное описание запросов доступно по адресу /redoc/
