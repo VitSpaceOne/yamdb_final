@@ -11,7 +11,7 @@ yamdb_final
 ```
 ... /yamdb_final$ python3 -m venv venv && . venv/bin/activate
 ```
-- Для Windows
+- Для  Windows
 *-примечание
 ```
 ... /yamdb_final$ python (*или py) -m venv venv && . source venv/Scripts/activate
