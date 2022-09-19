@@ -12,10 +12,11 @@ yamdb_final
 ... /yamdb_final$ python3 -m venv venv && . venv/bin/activate
 ```
 - Для Windows
+*-примечание
 ```
 ... /yamdb_final$ python (*или py) -m venv venv && . source venv/Scripts/activate
 ```
-*-примечание
+
 В виртуальном окружении, в директории /api_yamdb/api_yamdb/ выполнить команды:
 ```
 pip install -r requirements.txt
