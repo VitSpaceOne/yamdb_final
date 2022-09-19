@@ -9,11 +9,11 @@ yamdb_final
 Создать и активировать виртуальное окружение.
 - Для MacOS и Linux
 ```
-... Dev/infra_actions$ python3 -m venv venv && . venv/bin/activate
+... /yamdb_final$ python3 -m venv venv && . venv/bin/activate
 ```
 - Для Windows
 ```
-... Dev/infra_actions$ python -m venv venv && . venv/bin/activate
+... /yamdb_final$ python -m venv venv && . venv/bin/activate
 ```
 В виртуальном окружении, в директории /api_yamdb/api_yamdb/ выполнить команды:
 ```
