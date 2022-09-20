@@ -14,22 +14,14 @@ jobs:
         python-version: 3.7
 
     - name: Install dependencies
-      run: | 
-        # обновление pip
-        python -m pip install --upgrade pip 
-        # установка flake8 и его плагинов
+      run: |
+        python -m pip install --upgrade pip
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
-        # установка зависимостей
         pip install -r api_yamdb/requirements.txt
 
     - name: Test with flake8 and pytest
       run: |
-        # запуск проверки проекта по flake8
         python -m flake8
-        # перейти в папку, содержащую manage.py — 
-        #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
-        #cd yamdb_final/
-        # запустить написанные разработчиком тесты
         pytest
 
   build_and_push_to_docker_hub:
@@ -67,8 +59,6 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          # Выполняет pull образа с DockerHub
-
           sudo docker-compose stop
           sudo docker-compose rm web
           touch .env
