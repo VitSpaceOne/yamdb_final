@@ -1,28 +1,13 @@
 # yamdb_final
+- Ссылка на развернутый проект:
+http://84.201.157.242/api/v1
 
 ![Статус workflow](https://github.com/VitSpaceOne/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
 # api_yamdb
 > Проект содержит три приложения: reviews, api, users. Приложение reviews содержит модели сервиса, приложение api предоставляет доступ к моделям через API, а в приложениии users реализована вся логика для управления ролями и выдачи доступов: пермишены, эндпоинты для регистрации и получения токена. Подробное описание запросов доступно по адресу /redoc/
 
-## Локальное развертывание приложения
-Создать и активировать виртуальное окружение.
-- Для MacOS и Linux
-```
-... /yamdb_final$ python3 -m venv venv && . venv/bin/activate
-```
-- Для  Windows
-*-примечание
-```
-... /yamdb_final$ python (*или py) -m venv venv && . source venv/Scripts/activate
-```
-
-В виртуальном окружении, в директории /api_yamdb/api_yamdb/ выполнить команды:
-```
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
+## Приложения
 
 ## Приложение users
 В приложении реализована расширенная модель пользователя, права для управления доступами до основных эндпоинтов и API для управления пользователями.
